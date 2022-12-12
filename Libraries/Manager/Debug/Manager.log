@@ -1,0 +1,19 @@
+﻿  DLink.cpp
+  DLink_Iterator.cpp
+  DLink_Manager.cpp
+  ManagerBase.cpp
+  Manager.vcxproj -> C:\Users\Rein_GD\Desktop\Prototype\Debug\Manager_X86Debug.lib
+  A subdirectory or file C:\Users\Rein_GD\Desktop\Prototype\dist\Manager\lib already exists.
+  C:\Users\Rein_GD\Desktop\Prototype\Debug\Manager_X86Debug.lib
+  A subdirectory or file C:\Users\Rein_GD\Desktop\Prototype\dist\Manager\include already exists.
+          1 file(s) copied.
+  C:\Users\Rein_GD\Desktop\Prototype\Debug\Manager_X86Debug.pdb
+          1 file(s) copied.
+  C:\Users\Rein_GD\Desktop\Prototype\Libraries\Manager\include\DLink.h
+  C:\Users\Rein_GD\Desktop\Prototype\Libraries\Manager\include\DLink_Iterator.h
+  C:\Users\Rein_GD\Desktop\Prototype\Libraries\Manager\include\DLink_Manager.h
+  C:\Users\Rein_GD\Desktop\Prototype\Libraries\Manager\include\Iterator.h
+  C:\Users\Rein_GD\Desktop\Prototype\Libraries\Manager\include\ListBase.h
+  C:\Users\Rein_GD\Desktop\Prototype\Libraries\Manager\include\ManagerBase.h
+  C:\Users\Rein_GD\Desktop\Prototype\Libraries\Manager\include\ManBase.h
+          7 file(s) copied.

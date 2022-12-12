@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ImGuiFiles">
+      <UniqueIdentifier>{f9f98b8a-56c8-4bdc-809b-def4a0b7f69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NodeEditor">
+      <UniqueIdentifier>{0cca52c9-660c-43ec-a334-de30b483a560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NodeEditor\Nodes">
+      <UniqueIdentifier>{13f4d25f-096b-47d1-91e8-4281b7a27e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NodeEditor\Pins">
+      <UniqueIdentifier>{7dbc948b-fa21-4cf1-914c-58f706fb3971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NodeEditor\Links">
+      <UniqueIdentifier>{7fb04db2-04b9-4011-940f-001da19f1404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper">
+      <UniqueIdentifier>{31af8cf0-2cd5-445f-9984-d159f82383bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NodeEditor\Nodes\Function">
+      <UniqueIdentifier>{00ff7619-d797-44ec-a6cb-52674012d891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{7e89537a-b728-4167-8b30-6b56ecb9907a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{c98704b9-c251-4ec9-9867-e49384d47297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NodeEditor\Nodes\Types">
+      <UniqueIdentifier>{8d0a596e-e49a-465c-9693-c6126624c627}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ImGuiFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>ImGuiFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGuiFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>ImGuiFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>ImGuiFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>ImGuiFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>ImGuiFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiGD.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Link.cpp">
+      <Filter>Source Files\NodeEditor\Links</Filter>
+    </ClCompile>
+    <ClCompile Include="Pin.cpp">
+      <Filter>Source Files\NodeEditor\Pins</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeCreator.cpp">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeGraph.cpp">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeBase.cpp">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GDImGuiContext.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputNode.cpp">
+      <Filter>Source Files\NodeEditor\Nodes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Endpoint.cpp">
+      <Filter>Source Files\NodeEditor\Nodes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Contract.cpp">
+      <Filter>Source Files\NodeEditor\Nodes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Connector.cpp">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGuiFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGuiFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>ImGuiFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>ImGuiFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3_loader.h">
+      <Filter>ImGuiFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGuiFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiGD.h">
+      <Filter>Source Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Link.h">
+      <Filter>Source Files\NodeEditor\Links</Filter>
+    </ClInclude>
+    <ClInclude Include="Pin.h">
+      <Filter>Source Files\NodeEditor\Pins</Filter>
+    </ClInclude>
+    <ClInclude Include="AllNodes.h">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeCreator.h">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeGraph.h">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeBase.h">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>ImGuiFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>ImGuiFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>ImGuiFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleGame.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GDImGuiContext.h">
+      <Filter>Source Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputNode.h">
+      <Filter>Source Files\NodeEditor\Nodes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Endpoint.h">
+      <Filter>Source Files\NodeEditor\Nodes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Contract.h">
+      <Filter>Source Files\NodeEditor\Nodes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Connector.h">
+      <Filter>Source Files\NodeEditor\Nodes\Function</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>ImGuiFiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>
